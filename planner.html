@@ -1,44 +1,68 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MealMate - Planner</title>
+  <title>Meal Planner - MealMate</title>
   <link rel="stylesheet" href="styles.css">
+    <!--These are to link my styles sheet to my content-->
+  <!-- Reference: Mozilla Developer Network (2025). HTML Documentation. 
+       Available at: https://developer.mozilla.org/en-US/docs/Web/HTML -->
 </head>
 <body>
   <header>
-    <h1>Meal Planner</h1>
+    <h1>Weekly Meal Planner</h1>
     <nav>
-      <a href="home.html">Home</a>
-      <a href="planner.html" class="active">Planner</a>
-      <a href="recipes.html">Recipes</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="planner.html" class="active">Planner</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+            <!--These are my navigation to nacigate throughtout the website-->
+      </ul>
     </nav>
   </header>
 
-  <section class="content">
-    <h2>Weekly Meal Planner</h2>
-    <p>Write your planned meals below and save them to your device.</p>
-    <form id="plannerForm">
-      <label for="monday">Monday</label>
-      <input type="text" id="monday" placeholder="E.g., Chicken Salad">
+  <main>
+    <section class="planner-intro">
+      <h2>Plan Your Meals</h2>
+      <p>Organize your weekly meals and save them directly in your browser.</p>
+      <!-- Reference: Mozilla Developer Network (2025). Web Storage API – localStorage. 
+           Available at: https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage -->
+    </section>
 
-      <label for="tuesday">Tuesday</label>
-      <input type="text" id="tuesday" placeholder="E.g., Pasta & Veggies">
+    <section class="planner-tool">
+      <form>
+        <label for="day">Choose a day:</label>
+        <select id="day" name="day">
+          <option>Monday</option>
+          <option>Tuesday</option>
+          <option>Wednesday</option>
+          <option>Thursday</option>
+          <option>Friday</option>
+          <option>Saturday</option>
+          <option>Sunday</option>
+        </select>
 
-      <label for="wednesday">Wednesday</label>
-      <input type="text" id="wednesday" placeholder="E.g., Stir Fry">
+        <label for="meal">Enter your meal:</label>
+        <input type="text" id="meal" name="meal" placeholder="e.g., Grilled Chicken Salad">
 
-      <button type="button" onclick="savePlan()">Save Plan</button>
-    </form>
-  </section>
+        <button type="submit">Save Meal</button>
+      </form>
+      <div id="meal-list">
+        <!-- Planned meals will appear here -->
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <p>&copy; 2025 MealMate. All rights reserved.</p>
+    <p>&copy; 2025 MealMate App</p>
+      <!--this to avoid copywriting-->
+    <!-- Reference: W3Schools (2025). HTML & CSS Tutorials. 
+         Available at: https://www.w3schools.com -->
   </footer>
 
-  <script src="app.js"></script>
+  <script src="planner.js"></script>
 </body>
 </html>
