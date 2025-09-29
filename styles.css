@@ -1,4 +1,4 @@
- /* ========== GLOBAL STYLES ========== */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,6 @@ body {
   line-height: 1.6;
 }
 
-/* ========== HEADER & NAVIGATION ========== */
 header {
   background: #4CAF50;
   color: #fff;
@@ -39,7 +38,6 @@ nav a.active {
   color: #ffd700;
 }
 
-/* ========== MAIN CONTENT ========== */
 main {
   max-width: 1000px;
   margin: 2rem auto;
@@ -52,7 +50,6 @@ h2 {
   font-size: 1.6rem;
 }
 
-/* ========== PLANNER FORM ========== */
 .planner-form {
   background: #fff;
   padding: 2rem;
@@ -105,7 +102,6 @@ button:hover {
   background: #43a047;
 }
 
-/* ========== FOOTER ========== */
 footer {
   text-align: center;
   padding: 1rem;
@@ -115,7 +111,6 @@ footer {
   font-size: 0.9rem;
 }
 
-/* ========== RESPONSIVE DESIGN ========== */
 @media (max-width: 768px) {
   header {
     flex-direction: column;
