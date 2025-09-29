@@ -1,43 +1,56 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MealMate - Recipes</title>
+  <title>Contact MealMate</title>
   <link rel="stylesheet" href="styles.css">
+        <!--These are to link my styles sheet to my content-->
+  <!-- Reference: Mozilla Developer Network (2025). HTML Forms Guide. 
+       Available at: https://developer.mozilla.org/en-US/docs/Learn/Forms -->
 </head>
 <body>
   <header>
-    <h1>Recipes</h1>
+    <h1>Contact Us</h1>
     <nav>
-      <a href="home.html">Home</a>
-      <a href="planner.html">Planner</a>
-      <a href="recipes.html" class="active">Recipes</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="planner.html">Planner</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
     </nav>
+              <!--These are my navigation to nacigate throughtout the website-->
+    <!-- Reference: W3Schools (2025). HTML Navigation Bar Tutorial. 
+         Available at: https://www.w3schools.com/html/html_navbar.asp -->
   </header>
 
-  <section class="content">
-    <h2>Featured Recipes</h2>
-    <div class="card-grid">
-      <div class="card">
-        <h3>Avocado Toast</h3>
-        <p>Quick, nutritious, and perfect for breakfast.</p>
-      </div>
-      <div class="card">
-        <h3>Grilled Chicken Salad</h3>
-        <p>Light yet filling meal packed with protein.</p>
-      </div>
-      <div class="card">
-        <h3>Pasta Primavera</h3>
-        <p>Colorful pasta loaded with fresh vegetables.</p>
-      </div>
-    </div>
-  </section>
+  <main>
+    <section class="contact-form">
+      <h2>We’d love to hear from you!</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+      <!-- Reference: FreeCodeCamp (2025). HTML Forms and Inputs. 
+           Available at: https://www.freecodecamp.org/news/html-forms-and-inputs/ -->
+    </section>
+  </main>
 
   <footer>
-    <p>&copy; 2025 MealMate. All rights reserved.</p>
+    <p>&copy; 2025 MealMate App. All rights reserved.</p>
+       <!--this to avoid copywriting-->
+    <!-- Reference: GeeksforGeeks (2025). HTML Footer Tag. 
+         Available at: https://www.geeksforgeeks.org/html-footer-tag/ -->
   </footer>
 </body>
 </html>
