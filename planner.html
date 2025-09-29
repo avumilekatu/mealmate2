@@ -1,0 +1,44 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MealMate - Planner</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Meal Planner</h1>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="planner.html" class="active">Planner</a>
+      <a href="recipes.html">Recipes</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="content">
+    <h2>Weekly Meal Planner</h2>
+    <p>Write your planned meals below and save them to your device.</p>
+    <form id="plannerForm">
+      <label for="monday">Monday</label>
+      <input type="text" id="monday" placeholder="E.g., Chicken Salad">
+
+      <label for="tuesday">Tuesday</label>
+      <input type="text" id="tuesday" placeholder="E.g., Pasta & Veggies">
+
+      <label for="wednesday">Wednesday</label>
+      <input type="text" id="wednesday" placeholder="E.g., Stir Fry">
+
+      <button type="button" onclick="savePlan()">Save Plan</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MealMate. All rights reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
