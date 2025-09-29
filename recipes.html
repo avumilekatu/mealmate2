@@ -3,54 +3,84 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact MealMate</title>
+  <title>Meal Planner - MealMate</title>
+  <!-- Link to shared stylesheet -->
+    <!-- Reference: Mozilla Developer Network (2025). HTML Elements Reference. 
+       Available at: https://developer.mozilla.org/en-US/docs/Web/HTML/Element -->
+</head>
   <link rel="stylesheet" href="styles.css">
-        <!--These are to link my styles sheet to my content-->
-  <!-- Reference: Mozilla Developer Network (2025). HTML Forms Guide. 
-       Available at: https://developer.mozilla.org/en-US/docs/Learn/Forms -->
 </head>
 <body>
+
+  <!-- Navigation bar (same across all pages for consistency) -->
   <header>
-    <h1>Contact Us</h1>
+    <h1>MealMate</h1>
     <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="planner.html">Planner</a></li>
-        <li><a href="recipes.html">Recipes</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html" class="active">Contact</a></li>
-      </ul>
-    </nav>
-              <!--These are my navigation to nacigate throughtout the website-->
-    <!-- Reference: W3Schools (2025). HTML Navigation Bar Tutorial. 
+      <a href="index.html">Home</a>
+      <a href="planner.html" class="active">Planner</a>
+      <a href="recipes.html">Recipes</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+       <!-- Reference: W3Schools (2025). HTML Navigation Bar Tutorial. 
          Available at: https://www.w3schools.com/html/html_navbar.asp -->
+    </nav>
   </header>
 
+  <!-- Planner Section -->
   <main>
-    <section class="contact-form">
-      <h2>We’d love to hear from you!</h2>
-      <form action="#" method="post">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
+    <section class="planner">
+      <h2>Weekly Meal Planner</h2>
+      <p>Plan your meals for the week and stay on track with healthy eating.</p>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+      <!-- Meal Planner Form -->
+      <form class="planner-form">
+        <div class="day">
+          <label for="monday">Monday</label>
+          <input type="text" id="monday" placeholder="Enter meal for Monday">
+        </div>
 
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
+        <div class="day">
+          <label for="tuesday">Tuesday</label>
+          <input type="text" id="tuesday" placeholder="Enter meal for Tuesday">
+        </div>
 
-        <button type="submit">Send Message</button>
+        <div class="day">
+          <label for="wednesday">Wednesday</label>
+          <input type="text" id="wednesday" placeholder="Enter meal for Wednesday">
+        </div>
+
+        <div class="day">
+          <label for="thursday">Thursday</label>
+          <input type="text" id="thursday" placeholder="Enter meal for Thursday">
+        </div>
+
+        <div class="day">
+          <label for="friday">Friday</label>
+          <input type="text" id="friday" placeholder="Enter meal for Friday">
+        </div>
+
+        <div class="day">
+          <label for="saturday">Saturday</label>
+          <input type="text" id="saturday" placeholder="Enter meal for Saturday">
+        </div>
+
+        <div class="day">
+          <label for="sunday">Sunday</label>
+          <input type="text" id="sunday" placeholder="Enter meal for Sunday">
+        </div>   <!-- Reference: World Health Organization (2025). Healthy Diet Factsheet. 
+           Available at: https://www.who.int/news-room/fact-sheets/detail/healthy-diet -->
+
+        <!-- Submit Button -->
+        <button type="submit">Save Weekly Plan</button>
       </form>
-      <!-- Reference: FreeCodeCamp (2025). HTML Forms and Inputs. 
-           Available at: https://www.freecodecamp.org/news/html-forms-and-inputs/ -->
     </section>
   </main>
-
-  <footer>
-    <p>&copy; 2025 MealMate App. All rights reserved.</p>
-       <!--this to avoid copywriting-->
+    <!--this to avoid copywriting-->
     <!-- Reference: GeeksforGeeks (2025). HTML Footer Tag. 
          Available at: https://www.geeksforgeeks.org/html-footer-tag/ -->
+  <footer>
+    <p>&copy; 2025 MealMate | Designed for Assignment</p>
   </footer>
+
 </body>
 </html>
