@@ -1,56 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact MealMate</title>
-  <link rel="stylesheet" href="styles.css">
-   <!-- Link to shared stylesheet -->
-  <!-- Reference: Mozilla Developer Network (2025). HTML Forms Guide. 
-       Available at: https://developer.mozilla.org/en-US/docs/Learn/Forms -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | MealMate</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Contact Us</h1>
     <nav>
-      <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="planner.html">Planner</a></li>
-        <li><a href="recipes.html">Recipes</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html" class="active">Contact</a></li>
-      </ul>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="planner.html">Planner</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
     </nav>
-    <!-- Navigation bar (same across all pages for consistency) -->
-    <!-- Reference: W3Schools (2025). HTML Navigation Bar Tutorial. 
-         Available at: https://www.w3schools.com/html/html_navbar.asp -->
-  </header>
 
-  <main>
-    <section class="contact-form">
-      <h2>We’d love to hear from you!</h2>
-      <form action="#" method="post">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
+    <section class="contact">
+        <h1>Contact Us</h1>
+        <form>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
 
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Your message here..." required></textarea>
 
-        <button type="submit">Send Message</button>
-      </form>
-      <!-- Reference: FreeCodeCamp (2025). HTML Forms and Inputs. 
-           Available at: https://www.freecodecamp.org/news/html-forms-and-inputs/ -->
+            <button type="submit">Send</button>
+        </form>
     </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 MealMate App. All rights reserved.</p>
-     <!--this to avoid copywriting-->
-    <!-- Reference: GeeksforGeeks (2025). HTML Footer Tag. 
-         Available at: https://www.geeksforgeeks.org/html-footer-tag/ -->
-  </footer>
 </body>
 </html>
