@@ -1,86 +1,45 @@
+<!-- Recipes Page: Displays example meals -->
+<!-- Reference: MDN Web Docs (2024), HTML Lists & Semantic Elements -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meal Planner - MealMate</title>
-  <!-- Link to shared stylesheet -->
-    <!-- Reference: Mozilla Developer Network (2025). HTML Elements Reference. 
-       Available at: https://developer.mozilla.org/en-US/docs/Web/HTML/Element -->
-</head>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes | MealMate</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Navigation bar (same across all pages for consistency) -->
-  <header>
-    <h1>MealMate</h1>
+
     <nav>
-      <a href="home.html">Home</a>
-      <a href="planner.html" class="active">Planner</a>
-      <a href="recipes.html">Recipes</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-       <!-- Reference: W3Schools (2025). HTML Navigation Bar Tutorial. 
-         Available at: https://www.w3schools.com/html/html_navbar.asp -->
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="planner.html">Planner</a></li>
+            <li><a href="recipes.html" class="active">Recipes</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </nav>
-  </header>
 
-  <!-- Planner Section -->
-  <main>
-    <section class="planner">
-      <h2>Weekly Meal Planner</h2>
-      <p>Plan your meals for the week and stay on track with healthy eating.</p>
+    <header>
+        <h1>Healthy Recipes</h1>
+    </header>
 
-      <!-- Meal Planner Form -->
-      <form class="planner-form">
-        <div class="day">
-          <label for="monday">Monday</label>
-          <input type="text" id="monday" placeholder="Enter meal for Monday">
+    <section class="recipes">
+        <div class="recipe-card">
+            <h3>Grilled Chicken Salad</h3>
+            <p>Rich in protein, light on calories. Perfect for lunch!</p>
         </div>
-
-        <div class="day">
-          <label for="tuesday">Tuesday</label>
-          <input type="text" id="tuesday" placeholder="Enter meal for Tuesday">
+        <div class="recipe-card">
+            <h3>Oatmeal Breakfast Bowl</h3>
+            <p>A nutritious start packed with fibre and fruits.</p>
         </div>
-
-        <div class="day">
-          <label for="wednesday">Wednesday</label>
-          <input type="text" id="wednesday" placeholder="Enter meal for Wednesday">
+        <div class="recipe-card">
+            <h3>Stir-fried Veggies</h3>
+            <p>Quick, easy, and full of essential nutrients.</p>
         </div>
-
-        <div class="day">
-          <label for="thursday">Thursday</label>
-          <input type="text" id="thursday" placeholder="Enter meal for Thursday">
-        </div>
-
-        <div class="day">
-          <label for="friday">Friday</label>
-          <input type="text" id="friday" placeholder="Enter meal for Friday">
-        </div>
-
-        <div class="day">
-          <label for="saturday">Saturday</label>
-          <input type="text" id="saturday" placeholder="Enter meal for Saturday">
-        </div>
-
-        <div class="day">
-          <label for="sunday">Sunday</label>
-          <input type="text" id="sunday" placeholder="Enter meal for Sunday">
-        </div>   <!-- Reference: World Health Organization (2025). Healthy Diet Factsheet. 
-           Available at: https://www.who.int/news-room/fact-sheets/detail/healthy-diet -->
-
-        <!-- Submit Button -->
-        <button type="submit">Save Weekly Plan</button>
-      </form>
     </section>
-  </main>
-    <!--this to avoid copywriting-->
-    <!-- Reference: GeeksforGeeks (2025). HTML Footer Tag. 
-         Available at: https://www.geeksforgeeks.org/html-footer-tag/ -->
-  <footer>
-    <p>&copy; 2025 MealMate | Designed for Assignment</p>
-  </footer>
-
+    
 </body>
 </html>
