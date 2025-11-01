@@ -37,9 +37,13 @@ MealMate is a web application that helps users plan meals, discover healthy reci
 
 ### Changelog
 | Date  Change  Description 
+
 | **2025-08-01** Initial version Created basic HTML structure 
+
 | **2025-09-15** Added CSS styling Improved layout and navigation 
+
 | **2025-10-20** Added JavaScript Meal planner functionality implemented 
+
 | **2025-11-01** Final updates  Added references, README, and accessibility 
 
 ### References
