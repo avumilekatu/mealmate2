@@ -1,50 +1,49 @@
-# mealmate2
 # MealMate App
 
-MealMate is a simple web-based application designed to make meal planning easier. 
-The app helps users create weekly meal plans, explore healthy recipes, 
-and stay organized with their food choices.
+### Developer
+Avumile Katu  
+The Independent Institute of Education (IIE) | 2025  
 
----
+### Overview
+MealMate is a web application that helps users plan meals, discover healthy recipes, and stay consistent with nutrition goals.
 
-##  Features
-- Weekly meal planner
-- Healthy recipe suggestions
-- Contact form for feedback
-- About section with app mission and vision
+### Features
+- Simple navigation and user interface  
+- Interactive weekly meal planner  
+- Recipe suggestions for balanced meals  
+- Responsive and clean design  
 
----
+### Technologies Used
+- HTML 
+- CSS 
+- JavaScript  
+- GitHub Pages for deployment  
 
-##  How to Use
-1. Open the `index.html` file in your browser to access the homepage.
-2. Navigate using the top menu bar:
-   - **Planner** → Create your weekly meal plan.
-   - **Recipes** → Explore different recipes.
-   - **About** → Learn about the app's mission.
-   - **Contact** → Send feedback or inquiries.
-3. Edit the `styles.css` file if you want to customize the look.
-
----
-
-##  Project Structure
-index.html
-planner.html
-recipes.html
-about.html
-contact.html
-styles.css
+### File Structure
+ index.html
+ planner.html
+ recipes.html
+ about.html
+ contact.html
+ style.css
+ script.js
  README.md
 
  
----
+### How to Run
+1. Open `home.html` in a browser.  
+2. Navigate using the menu bar.  
+3. Planner and Contact forms are interactive.  
 
-## References
-- Mozilla Developer Network (2025). *HTML Elements Reference*. Available at: [https://developer.mozilla.org/en-US/docs/Web/HTML/Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)  
-- W3Schools (2025). *HTML Navigation Bar Tutorial*. Available at: [https://www.w3schools.com/html/html_navbar.asp](https://www.w3schools.com/html/html_navbar.asp)  
-- FreeCodeCamp (2025). *HTML Forms and Inputs*. Available at: [https://www.freecodecamp.org/news/html-forms-and-inputs/](https://www.freecodecamp.org/news/html-forms-and-inputs/)  
+### Changelog
+| Date  Change  Description 
+| **2025-08-01** Initial version Created basic HTML structure 
+| **2025-09-15** Added CSS styling Improved layout and navigation 
+| **2025-10-20** Added JavaScript Meal planner functionality implemented 
+| **2025-11-01** Final updates  Added references, README, and accessibility 
 
----
-
-##  Author
-This project was created as part of a school assignment for learning HTML and basic web development.
+### References
+- W3Schools. (2024). *HTML and CSS Tutorials.* https://www.w3schools.com  
+- Mozilla Developer Network (MDN). (2024). *Web Documentation.* https://developer.mozilla.org  
+- GitHub Docs. (2024). *Pages Deployment Guide.* https://docs.github.com  
 
