@@ -46,6 +46,19 @@ MealMate is a web application that helps users plan meals, discover healthy reci
 
 | **2025-11-01** Final updates  Added references, README, and accessibility 
 
+# Sitemap diagram
+
+                   [ Home ]
+                      |
+    -------------------------------------------------
+    |                    |                    |                    |
+ [ About ]          [ Planner ]         [ Services ]         [ Contact ]
+
+About: Information about MealMate’s mission and team.  
+Planner: Tools and meal tracking interface.  
+Services: Lists offered plans, recipes, and tips.  
+Contact: Enquiry and feedback form with validation.
+
 ### References
 - W3Schools. (2024). *HTML and CSS Tutorials.* https://www.w3schools.com  
 - Mozilla Developer Network (MDN). (2024). *Web Documentation.* https://developer.mozilla.org  
