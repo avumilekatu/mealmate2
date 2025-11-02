@@ -49,9 +49,8 @@ MealMate is a web application that helps users plan meals, discover healthy reci
 # Sitemap diagram
 
                    [ Home ]
-                      |
-    -------------------------------------------------
-    |                    |                    |                    |
+                      
+    |                 |                    |                    |
  [ About ]          [ Planner ]         [ Services ]         [ Contact ]
 
 About: Information about MealMate’s mission and team.  
