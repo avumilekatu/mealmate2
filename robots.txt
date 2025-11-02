@@ -1,0 +1,15 @@
+# robots.txt for MealMate App
+# Author: Your Name
+# Date: 2025
+# Purpose: Control how search engine crawlers index the MealMate website
+
+User-agent: *
+Allow: /
+
+# Disallow any private folders (if you had admin areas)
+Disallow: /admin/
+Disallow: /private/
+
+# Specify location of the sitemap
+Sitemap: https://yourgithubusername.github.io/MealMate/sitemap.xml
+
